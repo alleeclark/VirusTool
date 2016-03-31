@@ -18,6 +18,7 @@ namespace VirusTotalNET
             using (MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(content)))
                 return GetSHA256(ms);
         }
+        // where to add file
 
         public static string GetSHA256(FileInfo file)
         {
